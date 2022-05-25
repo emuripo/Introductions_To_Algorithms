@@ -1,0 +1,29 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.6.0'
+}
+
+group 'sek.net.FotosNav'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib"
+    implementation("org.springframework.boot:spring-boot-starter-data-jpa")
+    implementation("org.springframework.boot:spring-boot-starter-quartz")
+    implementation("org.jetbrains.kotlin:kotlin-reflect")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
+    implementation("com.microsoft.sqlserver:mssql-jdbc")
+    implementation("commons-codec:commons-codec:1.13")
+    implementation("com.google.code.gson:gson")
+    implementation("com.fasterxml.jackson.module:jackson-module-scala_2.13.0-M5:2.9.8")
+    implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.10.0.pr3")
+    compile("com.fasterxml.jackson.module:jackson-module-kotlin:2.9.2")
+    implementation("khttp:khttp:1.0.0")
+    implementation("com.microsoft.sqlserver.msi:msi-mssql-jdbc:2.0.3")
+    implementation("org.springframework.boot:spring-boot-starter-web:2.2.0.RELEASE")
+    implementation("org.springframework.boot:spring-boot-starter")
+    implementation("org.springframework.boot:spring-boot-starter-tomcat")
+}
